@@ -30,7 +30,7 @@ const ProductCard = ({ product_data }: ProductCardProps) => {
       <CardHeader className="relative overflow-hidden p-0">
         <div className="">
           <Image
-            src={product_data.image}
+            src={product_data.image || "/next-cemilankita/produk.png"}
             alt={product_data.name}
             width={400}
             height={400}
