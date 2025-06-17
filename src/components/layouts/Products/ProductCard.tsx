@@ -13,8 +13,6 @@ import {
   CardTitle,
 } from "@/components/ui/card";
 
-import { DEFAULT_PRODUCT_IMAGE } from "@/lib/image-utils";
-
 type ProductCardProps = {
   product_data: {
     id: number;
@@ -30,10 +28,12 @@ const ProductCard = ({ product_data }: ProductCardProps) => {
   return (
     <Card className="gap-4 pt-0">
       <CardHeader className="relative overflow-hidden p-0">
-        {" "}
         <div className="">
           <Image
-            src={product_data.image || DEFAULT_PRODUCT_IMAGE}
+            src={
+              product_data.image ||
+              "https://images.unsplash.com/photo-1600952841320-db92ec4047ca?q=80&w=425&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            }
             alt={product_data.name}
             width={400}
             height={400}
