@@ -47,7 +47,7 @@ export const products_data = [
     name: "Keripik Singkong Original",
     price: "Rp 15.000",
     rating: 4.8,
-    image: "/next-cemilankita/produk.png",
+    image: "/produk.png",
     description:
       "Keripik singkong renyah dengan rasa original yang gurih, dibuat dari singkong pilihan berkualitas tinggi dengan cita rasa tradisional.",
   },
@@ -56,7 +56,7 @@ export const products_data = [
     name: "Keripik Pisang Manis",
     price: "Rp 12.000",
     rating: 4.7,
-    image: "/next-cemilankita/produk.png",
+    image: "/produk.png",
     description:
       "Keripik pisang manis yang crispy dan lezat, terbuat dari pisang Raja dengan gula kelapa asli yang memberikan rasa manis alami.",
   },
@@ -65,7 +65,7 @@ export const products_data = [
     name: "Kacang Tanah Bawang",
     price: "Rp 18.000",
     rating: 4.9,
-    image: "/next-cemilankita/produk.png",
+    image: "/produk.png",
     description:
       "Kacang tanah gurih dengan bumbu bawang yang khas, menggunakan kacang premium yang dipanggang dengan bumbu rahasia keluarga.",
   },
@@ -74,7 +74,7 @@ export const products_data = [
     name: "Kerupuk Udang Premium",
     price: "Rp 25.000",
     rating: 4.6,
-    image: "/next-cemilankita/produk.png",
+    image: "/produk.png",
     description:
       "Kerupuk udang premium dengan rasa udang yang autentik, dibuat dari udang segar pilihan dan tepung berkualitas tinggi.",
   },
@@ -83,7 +83,7 @@ export const products_data = [
     name: "Emping Melinjo",
     price: "Rp 20.000",
     rating: 4.5,
-    image: "/next-cemilankita/produk.png",
+    image: "/produk.png",
     description:
       "Emping melinjo tradisional yang renyah dan lezat, dibuat dari biji melinjo pilihan dengan tekstur crispy yang unik.",
   },
@@ -92,7 +92,7 @@ export const products_data = [
     name: "Keripik Tempe Crispy",
     price: "Rp 16.000",
     rating: 4.8,
-    image: "/next-cemilankita/produk.png",
+    image: "/produk.png",
     description:
       "Keripik tempe crispy dengan bumbu rahasia yang nikmat dan bergizi, terbuat dari tempe segar dengan rempah pilihan.",
   },
