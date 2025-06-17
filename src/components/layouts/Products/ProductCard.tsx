@@ -33,7 +33,7 @@ const ProductCard = ({ product_data }: ProductCardProps) => {
         {" "}
         <div className="">
           <Image
-            src={DEFAULT_PRODUCT_IMAGE || product_data.image}
+            src={product_data.image || DEFAULT_PRODUCT_IMAGE}
             alt={product_data.name}
             width={400}
             height={400}

@@ -17,4 +17,4 @@ export const getImagePath = (image_path: string): string => {
 /**
  * Fallback image path for when an image fails to load
  */
-export const DEFAULT_PRODUCT_IMAGE = "/produk.png";
+export const DEFAULT_PRODUCT_IMAGE = "/next-cemilankita/produk.png";
