@@ -30,8 +30,8 @@ const ProductCard = ({ product_data }: ProductCardProps) => {
       <CardHeader className="relative overflow-hidden p-0">
         <div className="">
           <Image
+            // atau ganti menjadi {product_data.image}
             src={
-              product_data.image ||
               "https://images.unsplash.com/photo-1600952841320-db92ec4047ca?q=80&w=425&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
             }
             alt={product_data.name}
