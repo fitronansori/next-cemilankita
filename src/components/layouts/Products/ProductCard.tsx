@@ -13,6 +13,8 @@ import {
   CardTitle,
 } from "@/components/ui/card";
 
+import { DEFAULT_PRODUCT_IMAGE } from "@/lib/image-utils";
+
 type ProductCardProps = {
   product_data: {
     id: number;
@@ -28,9 +30,10 @@ const ProductCard = ({ product_data }: ProductCardProps) => {
   return (
     <Card className="gap-4 pt-0">
       <CardHeader className="relative overflow-hidden p-0">
+        {" "}
         <div className="">
           <Image
-            src={product_data.image || "https://fitronansori.github.io/next-cemilankita/produk.png"}
+            src={product_data.image || DEFAULT_PRODUCT_IMAGE}
             alt={product_data.name}
             width={400}
             height={400}
